@@ -1,49 +1,111 @@
-
-.banner{
-  background-image: url("../images/bg_home_mobile.jpg");
+.banner {
+  background-image: url("../images/bg_home.jpg");
   width: 100%;
   height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 
-  .solgan{
+  .solgan {
     height: 100vh;
 
-    .textArea{
+    .textArea {
       padding-top: 85px;
       padding-bottom: 85px;
     }
   }
 
-  .angle{
+  .angle {
     width: 10px;
     height: 10px;
   }
 }
 
-.features{
-background-color: $gray-600;
+.features {
+  background-color: $gray-600;
 
-.subtitle::after{
+  .subtitle::after {
+    content: "";
+    background-color: $primary;
+    width: 50px;
+    height: 3px;
+    position: absolute;
+    bottom: -16px;
+
+  }
+
+  .item {
+    cursor: pointer;
+
+    span {
+      font-size: 48px;
+    }
+
+    &:hover {
+      border: 1px $primary solid;
+      border-radius: 12px;
+      background-color: $gray-700;
+
+      span {
+        background: linear-gradient(#09ACF5, #62DB54);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+      }
+    }
+  }
+}
+
+.process {
+  background-color: $gray-800;
+
+  .subtitle::after {
+    content: "";
+    background-color: $primary;
+    width: 50px;
+    height: 3px;
+    position: absolute;
+    bottom: -16px;
+    right: 442px;
+  }
+
+  .step {
+    border-radius: 12px;
+  }
+
+  .stepIcon {
+    top: -10%;
+    left: 45px;
+  }
+}
+
+.code {
+  background-color: $gray-600;
+
+.subtitle::after {
   content: "";
   background-color: $primary;
   width: 50px;
   height: 3px;
   position: absolute;
-  bottom:-7px;
-
+  bottom: -16px;
+  right: 430px;
 }
 
-.item{
-  &:hover{
-    border:1px $primary solid;
-    border-radius: 12px;
-    background-color: $gray-700;
+  .codeList {
+    overflow-x: auto;
+    white-space: nowrap;
   }
-}
-}
 
-.process{
-  background-color: $gray-800;
+  .item {
+    border-radius: 8px;
+    a{
+      padding-left: 32px;
+      padding-right: 32px;
+      font-family: 'Noto Sans TC', sans-serif;
+      
+    }
+      
+    
+  }
 }
