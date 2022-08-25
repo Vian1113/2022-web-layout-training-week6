@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>
+        <%- title %>
+    </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@400;700&family=Roboto+Mono:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+    <link rel="stylesheet" href="./assets/style/all.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-header text-white align-middle container-fluid py-3">
+        <div class="container">
+            <a class="navbar-brand py-0 me-0" href="#">
+                <img src="./assets/images/logo.svg" alt="Codeing Home" class="d-inline-block align-text-top logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav gap-5 fst-normal">
+                    <a class="nav-link text-white p-0" aria-current="page" href="#">首頁</a>
+                    <a class="nav-link text-white p-0" href="#">課程介紹</a>
+                    <a class="nav-link text-white p-0 d-flex align-items-center" href="#"><span class="material-icons-outlined me-1">
+                            account_circle
+                        </span>登入</a>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <%- contents %>
+
+        <footer class="footer container-fluid bg-footer text-gray-300 text-center py-4">
+            <div class="container">
+            <p class="mb-0">Coding Home © 2022 All Rights Reserved</p>
+            </div>
+        </footer>
+
+        <script src="./assets/js/vendors.js"></script>
+        <script src="./assets/js/all.js"></script>
+</body>
+
+</html>
