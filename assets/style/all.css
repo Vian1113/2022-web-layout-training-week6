@@ -12916,6 +12916,10 @@ a {
   border-bottom-right-radius: 10px;
 }
 
+.share .card {
+  padding: 32px;
+}
+
 .share .card:hover .squareRounded {
   display: block;
 }
