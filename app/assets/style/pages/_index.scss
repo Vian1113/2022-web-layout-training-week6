@@ -295,11 +295,17 @@
     }
   }
 
-  .card:hover {
-    .squareRounded {
-      display: block;
+  .card{
+    padding: 32px;
+
+    &:hover{
+      .squareRounded {
+        display: block;
+      }
     }
   }
+
+ 
 
   .subtitle {
     margin-bottom: 40px;
