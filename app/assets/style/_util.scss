@@ -6,12 +6,22 @@
     color:$gray-300;
 }
 
+.text-Azeret{
+    font-family: 'Azeret Mono',monospace, sans-serif;
+
+}
+
 .bg-gradient {
-    background: linear-gradient(104deg, #09ACF5, #62DB54);
+    background-image: linear-gradient(104deg, #09ACF5, #62DB54);
+
 }
 
 .bg-white{
     color:$white;
+}
+
+.btn-outline-white{
+    border-color: $white;
 }
 
 .text-gradient {
@@ -20,4 +30,48 @@
     -webkit-background-clip: text;
     font-size: 48px;
     color: transparent;
+}
+
+.subtitle::after{
+    content: "";
+    background-color: $primary;
+    width: 50px;
+    height: 3px;
+    position: absolute;
+    bottom: -16px;
+}
+
+
+.mb-5-2{
+    margin-bottom: 32px;
+}
+
+.mb-3-2{
+    margin-bottom: 18px;
+}
+
+.pb-5-2{
+    padding-bottom: 32px;
+}
+
+.ps-5-2{
+    padding-left: 32px;
+}
+
+.pe-5-2{
+    padding-right: 32px;
+}
+
+
+
+.mt-5-3{
+    margin-top: 40px;
+}
+
+.pt-5-3{
+    padding-top: 40px;
+}
+
+.pb-5-3{
+    padding-bottom: 40px;
 }

@@ -179,7 +179,7 @@ $variable-prefix: bs- !default;
 // The gradient which is added to components if `$enable-gradients` is `true`
 // This gradient is also added to elements with `.bg-gradient`
 // scss-docs-start variable-gradient
-$gradient: linear-gradient(180deg, rgba($white, .15), rgba($white, 0)) !default;
+$gradient: linear-gradient(104deg, #09ACF5, #62DB54) !default;
 // scss-docs-end variable-gradient
 // Spacing
 //
@@ -330,7 +330,7 @@ $h5-font-size: $font-size-base * 1.25 !default; //20px
 $h6-font-size: $font-size-base !default;
 // scss-docs-end font-variables
 // scss-docs-start font-sizes
-$font-sizes: ( 1: $font-size-base *3, 2: $h1-font-size, 3: $h2-font-size, 4: $h3-font-size, 5: $h4-font-size, 6: $font-size-base *1.125, 7: $h5-font-size, 8: $font-size-base *1.25) !default;
+$font-sizes: ( 1: $font-size-base *3, 2: $font-size-base *2, 3: $h3-font-size, 4: $h4-font-size, 5: $h5-font-size, 6: $font-size-base *1.125, 7: $font-size-base) !default;
 // scss-docs-end font-sizes
 // scss-docs-start headings-variables
 $headings-margin-bottom: $spacer * .5 !default;
@@ -853,7 +853,7 @@ $card-cap-bg: rgba($black,
 $card-cap-color: null !default;
 $card-height: null !default;
 $card-color: null !default;
-$card-bg: $white !default;
+$card-bg: transparent !default;
 $card-img-overlay-padding: $spacer !default;
 $card-group-margin: $grid-gutter-width * .5 !default;
 // scss-docs-end card-variables

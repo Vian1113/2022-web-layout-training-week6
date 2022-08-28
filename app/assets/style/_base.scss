@@ -1,3 +1,21 @@
+@mixin large {
+    @media(min-width:992px) {
+        @content;
+    }
+}
+
+@mixin medium{
+    @media(min-width:768px) {
+        @content;
+    }
+}
+
+
+
+
+
+
+
 body {
     line-height: 1.5;
     font-family: 'Azeret Mono', 'Noto Sans TC', monospace, sans-serif;
@@ -13,3 +31,4 @@ a {
     text-decoration: none;
     display: block;
 }
+

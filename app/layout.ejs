@@ -17,23 +17,25 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./assets/style/all.css">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-header text-white align-middle container-fluid py-3 fixed-top">
-        <div class="container">
-            <a class="navbar-brand py-0 me-0" href="#">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-header text-white align-middle  py-3">
+        <div class="container-fluid ">
+            <a class="navbar-brand py-0 me-0" href="./index.html">
                 <img src="./assets/images/logo.svg" alt="Codeing Home" class="d-inline-block align-text-top logo"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavAltMarkup">
-                <div class="navbar-nav gap-5 fst-normal">
-                    <a class="nav-link text-white p-0" aria-current="page" href="#">首頁</a>
-                    <a class="nav-link text-white p-0" href="#">課程介紹</a>
-                    <a class="nav-link text-white p-0 d-flex align-items-center" href="#"><span
+            <div class="collapse navbar-collapse d-flex justify-content-lg-end justify-content-center" id="navbarNavAltMarkup">
+                <div class="navbar-nav gap-5 fst-normal text-center">
+                    <a class="nav-link text-white p-0 mb-4 mb-md-0" aria-current="page" href="#">首頁</a>
+                    <a class="nav-link text-white p-0 mb-4 mb-md-0" href="#">課程介紹</a>
+                    <a class="nav-link text-white p-0  mb-4 mb-md-0 d-flex align-items-center" href="#"><span
                             class="material-icons-outlined me-1">
                             account_circle
                         </span>登入</a>
@@ -42,6 +44,9 @@
             </div>
         </div>
     </nav>
+
+
+    
 
     <%- contents %>
 
