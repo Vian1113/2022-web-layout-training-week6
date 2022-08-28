@@ -14,7 +14,8 @@ var swiper = new Swiper(".codeSwiper", {
     waitForTransition: false //不等待頁面transition 持續播放
 
   }
-});
+}); //comment Swiper
+
 var swiper = new Swiper(".commentSwiper", {
   //cssMode: true,
   // Optional parameters
@@ -34,5 +35,11 @@ var swiper = new Swiper(".commentSwiper", {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev'
   }
+}); //course swiper
+
+var swiper = new Swiper(".courseSwiper", {
+  slidesPerView: "auto",
+  spaceBetween: 16,
+  grabCursor: true
 });
 //# sourceMappingURL=all.js.map

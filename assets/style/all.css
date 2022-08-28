@@ -13122,4 +13122,8 @@ a {
   }
 }
 
+.course .detail .card-body {
+  width: 400px;
+}
+
 /*# sourceMappingURL=all.css.map */
