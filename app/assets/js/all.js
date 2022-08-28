@@ -17,6 +17,8 @@ var swiper = new Swiper(".codeSwiper", {
 
 });
 
+//comment Swiper
+
 var swiper = new Swiper(".commentSwiper", {
   //cssMode: true,
   // Optional parameters
@@ -42,4 +44,18 @@ var swiper = new Swiper(".commentSwiper", {
 });
 
 
+//course swiper
+
+var swiper = new Swiper(".courseSwiper", {
+  slidesPerView: "auto",
+  spaceBetween: 16,
+  
+  grabCursor: true,
+ 
+  
+
+
+
+
+});
 
