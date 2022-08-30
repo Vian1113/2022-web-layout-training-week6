@@ -1,3 +1,23 @@
+@mixin xxlarge {
+    @media(min-width:1400px) {
+        @content;
+    }
+}
+
+
+
+
+
+@mixin xlarge {
+    @media(min-width:1200px) {
+        @content;
+    }
+}
+
+
+
+
+
 @mixin large {
     @media(min-width:992px) {
         @content;
