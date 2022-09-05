@@ -12655,6 +12655,10 @@ a {
   height: 1em;
 }
 
+.navbar .navItem:hover {
+  opacity: 0.8;
+}
+
 .navbar-dark .navbar-toggler-icon {
   background-image: none;
 }
@@ -12672,6 +12676,10 @@ a {
   .banner {
     background-image: url("../images/bg_home.jpg");
   }
+}
+
+.banner .solgan {
+  background-color: #1A1A1A;
 }
 
 .banner .textArea {
@@ -13180,7 +13188,14 @@ a {
 }
 
 .course .detail .card-body {
-  width: 400px;
+  max-width: 400px;
+}
+
+@media (min-width: 576px) {
+  .course .detail .card-body {
+    width: 400px;
+    max-width: none;
+  }
 }
 
 .course .classButton:hover {
