@@ -37,13 +37,20 @@
             border-radius: 24px;
            
             @include medium {
-                margin-bottom: 32px;;
+                margin-bottom: 32px;
               }
 
         }
 
         .card-body{
-            width: 400px;
+
+            max-width: 400px;
+
+            @include small {
+                width:400px;
+                max-width:none;
+              }
+            
         }
     }
 
